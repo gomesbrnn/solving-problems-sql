@@ -1,2 +1,1 @@
-# solving-problems-sql
-Solving SQL problems from Beecrowd
+# Solving SQL problems from Beecrowd

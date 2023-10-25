@@ -2,19 +2,9 @@ A empresa fará um evento comemorando os 20 anos de mercado, e para isso faremos
 
 O seu trabalho é nos passar os nomes e os endereços dos clientes que moram em 'Porto Alegre', para entregar os convites pessoalmente.
 
-## Esquema
+## Tables
 
-| Coluna       | Tipo    |
-|--------------|---------|
-| id (PK)      | numeric |
-| name         | varchar |
-| street       | varchar |
-| city         | varchar |
-| state        | char    |
-| credit_limit | number  |
-
-## Tabelas
-
+### customers
 | id | name                      | street                   | city           | state | credit_limit |
 |----|---------------------------|--------------------------|----------------|-------|--------------|
 | 1  | Pedro Augusto da Rocha    | Rua Pedro Carlos Hoffman | Porto Alegre   | RS    | 700,00       |
@@ -23,7 +13,7 @@ O seu trabalho é nos passar os nomes e os endereços dos clientes que moram em 
 | 4  | Jane Ester                | Av 7 de setembro         | Erechim        | RS    | 800,00       |
 | 5  | Marcos Antônio dos Santos | Av Farrapos              | Porto Alegre   | RS    | 4250,25      |
 
-## Exemplo de saída
+## Output Sample
 
 | name                      | street                   |
 |---------------------------|--------------------------|

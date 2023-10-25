@@ -2,34 +2,7 @@ O setor financeiro precisa de um relatório sobre os fornecedores dos produtos q
 
 Seu trabalho é retornar os nomes dos produtos e dos fornecedores cujo código da categoria é 6.
 
-## Esquema
-
-### products
-| Coluna             | Tipo    |
-|--------------------|---------|
-| id (PK)            | numeric |
-| name               | varchar |
-| amount             | numeric |
-| price              | numeric |
-| id_providers (FK)  | numeric |
-| id_categories (FK) | numeric |
-
-### providers
-| Coluna  | Tipo    |
-|---------|---------|
-| id (PK) | numeric |
-| name    | varchar |
-| street  | varchar |
-| city    | varchar |
-| state   | char    |
-
-### categories
-| Coluna  | Tipo    |
-|---------|---------|
-| id (PK) | numeric |
-| name    | varchar |
-
-## Tabelas
+## Tables
 
 ### products
 | id | name              | amount | price  | id_providers | id_categories |
@@ -66,7 +39,7 @@ Seu trabalho é retornar os nomes dos produtos e dos fornecedores cujo código d
 | 10 | vintage      |
 
 
-## Exemplo de saída
+## Output Sample
 
 | name          | name           |
 |---------------|----------------|

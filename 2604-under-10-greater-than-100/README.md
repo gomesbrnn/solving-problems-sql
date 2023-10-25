@@ -1,16 +1,8 @@
 O setor financeiro da empresa precisa de um relatório que mostre o código e o nome dos produtos cujo preço são menores que 10 ou maiores que 100.
 
-## Esquema
+## Tables
 
-| Coluna  | Tipo    |
-|---------|---------|
-| id (PK) | numeric |
-| name    | varchar |
-| amount  | numeric |
-| price   | numeric |
-
-## Tabelas
-
+### products
 | id | name              | amount | price  |
 |----|-------------------|--------|--------|
 | 1  | Two-door wardrobe | 100    | 80     |
@@ -20,7 +12,7 @@ O setor financeiro da empresa precisa de um relatório que mostre o código e o 
 | 5  | Chair             | 3000   | 210.64 |
 | 6  | Single bed        | 750    | 99     |
 
-## Exemplo de saída
+## Output sample
 
 | id | name         |
 |----|--------------|
